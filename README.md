@@ -3,7 +3,7 @@ Proyek E-commerce Analysis Dashboard bertujuan untuk memberikan insight mendalam
 
 ## Setup Environment - Anaconda
 ```
-conda create --name ecommerce-ds python=3.9
+conda create --name ecommerce-ds python=3.10
 conda activate ecommerce-ds
 pip install -r requirements.txt
 ```
