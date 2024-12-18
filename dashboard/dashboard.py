@@ -11,7 +11,7 @@ st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 
 @st.cache_data(show_spinner=False, persist=True)
 def load_data():
-    data = pd.read_csv('all_data.csv', parse_dates=['order_purchase_timestamp'])
+    data = pd.read_csv('dashboard/all_data.csv', parse_dates=['order_purchase_timestamp'])
     required_columns = [
         'order_id', 'customer_id', 'order_purchase_timestamp', 'order_status',
         'customer_unique_id', 'customer_city', 'price', 'product_id',
