@@ -9,7 +9,7 @@ sns.set(style='dark')
 # Set layout untuk judul di samping (navbar)
 st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 
-@st.cache_data
+@st.cache_data(show_spinner=False, persist=True)
 def load_data():
     data = pd.read_csv('all_data.csv', parse_dates=['order_purchase_timestamp'])
     required_columns = [
