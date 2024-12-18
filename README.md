@@ -20,7 +20,9 @@ pip install -r requirements.txt
 ## Jalankan Streamlit App
 Setelah environtment berhasil diatur, jalankan aplikasi Streamlit dengan perintah berikut:
 ```
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
+
+note: Untuk menjalankan dashboard saat terminal berada di direktori "submission" bukan di direktori "dashboard".
 ```
 
 ## Struktur Proyek
